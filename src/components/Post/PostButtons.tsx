@@ -18,10 +18,6 @@ const Button = styled.div`
   margin: 5px;
 `;
 
-type Props = {
-  photo?: string;
-};
-
 function PostButtons() {
   return (
     <Container>

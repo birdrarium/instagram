@@ -15,7 +15,7 @@ function Post() {
         userName="user1"
         avatarPhoto="https://cdn.pixabay.com/photo/2018/04/14/20/38/cherry-blossom-3320018_960_720.jpg"
       ></PostHeader>
-      <PostImage postPhoto="https://cdn.pixabay.com/photo/2018/04/14/20/38/cherry-blossom-3320018_960_720.jpg"></PostImage>
+      <PostImage postPhoto="https://cdn.pixabay.com/photo/2018/04/14/20/38/cherry-blossom-3320018_960_720.jpg" />
 
       <PostButtons></PostButtons>
     </Container>

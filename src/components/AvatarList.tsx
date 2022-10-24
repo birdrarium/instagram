@@ -1,4 +1,3 @@
-import { Component } from "react";
 import Avatar from "./Avatar";
 import styled from "styled-components";
 const Container = styled.div`
