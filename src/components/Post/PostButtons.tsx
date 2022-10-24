@@ -4,11 +4,11 @@ import Like from "./Like";
 import Share from "./Share";
 
 const Container = styled.div`
-  width: 300px;
-  height: 20px;
+  width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
-  margin: 5px;
+  margin: 5px 10px;
 `;
 
 const Button = styled.div`

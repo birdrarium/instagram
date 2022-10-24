@@ -1,23 +1,32 @@
 import styled from "styled-components";
-import AddPhoto from "./AddPhoto";
-import Home from "./Home";
-import Account from "./Account";
-import Explore from "./Explore";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faSearch,
+  faCirclePlus,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Container = styled.div`
-  width: 300px;
-  height: 30px;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border-top: 1px solid gray;
 `;
 
 function Navigation() {
   return (
     <Container>
-      <Home></Home>
-      <Explore></Explore>
-      <AddPhoto></AddPhoto>
-      <Account></Account>
+      <FontAwesomeIcon icon={faHome} fontSize="24" />
+      <FontAwesomeIcon icon={faSearch} fontSize="24" />
+      <FontAwesomeIcon icon={faCirclePlus} fontSize="24" />
+      <FontAwesomeIcon icon={faUser} fontSize="24" />
     </Container>
   );
 }

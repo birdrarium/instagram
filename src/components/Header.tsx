@@ -1,7 +1,20 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 const Logo = styled.div`
-  padding: 10px;
+  padding: 15px;
   display: flex;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 99;
+  svg {
+    font-size: 24px;
+    right: 0;
+    padding: 0 15px;
+    position: absolute;
+  }
 `;
 
 function Header() {
@@ -12,6 +25,7 @@ function Header() {
         height={30}
         alt="logo"
       />
+      <FontAwesomeIcon icon={faPaperPlane} />
     </Logo>
   );
 }
