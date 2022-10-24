@@ -4,8 +4,8 @@ import PostHeader from "./PostHeader";
 import PostImage from "./PostImage";
 
 const Container = styled.div`
-  width: 300px;
-  height: 400px;
+  width: 100%;
+  height: auto;
 `;
 
 function Post() {

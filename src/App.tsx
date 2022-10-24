@@ -10,6 +10,7 @@ function App() {
       <Header />
       <AvatarList />
       <Post />
+      <Post />
       <Navigation />
     </div>
   );

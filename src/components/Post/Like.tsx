@@ -1,13 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 function Like() {
+  const [like, setLike] = useState(false);
   return (
     <FontAwesomeIcon
+      onClick={() => setLike(!like)}
       icon={faHeart}
-      color="white"
+      color={like ? "red" : "white"}
       fontSize="24px"
-      stroke="black"
+      stroke={like ? "red" : "black"}
       stroke-width="15"
     />
   );
