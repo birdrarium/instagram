@@ -1,21 +1,16 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 const Container = styled.img`
-    border: 1px solid black;
-    width: 300px;
-    height: 300px; 
-    object-fit: cover;
-
-`
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+`;
 type Props = {
-   postPhoto: string;
-}
+  postPhoto: string;
+};
 
 function PostImage(props: Props) {
-    return (
-        
-      <Container src={props.postPhoto}/>
-    );
-  }
-  
-  export default PostImage;
-  
+  return <Container src={props.postPhoto} />;
+}
+
+export default PostImage;
