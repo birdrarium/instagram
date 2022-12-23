@@ -13,9 +13,9 @@ function Post() {
     <Container>
       <PostHeader
         userName="user1"
-        avatarPhoto="https://cdn.pixabay.com/photo/2018/04/14/20/38/cherry-blossom-3320018_960_720.jpg"
+        avatarPhoto="https://cdn.pixabay.com/photo/2017/02/14/12/28/stone-tower-2065817_960_720.jpg"
       ></PostHeader>
-      <PostImage postPhoto="https://cdn.pixabay.com/photo/2018/04/14/20/38/cherry-blossom-3320018_960_720.jpg" />
+      <PostImage postPhoto="https://cdn.pixabay.com/photo/2020/07/23/01/16/heritage-5430081__340.jpg" />
 
       <PostButtons></PostButtons>
     </Container>

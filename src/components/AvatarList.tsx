@@ -10,21 +10,21 @@ const avatars = [
   {
     name: "myAccount",
     photo:
-      "https://cdn.pixabay.com/photo/2018/04/14/20/38/cherry-blossom-3320018_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2017/04/15/11/51/mt-fuji-2232246__340.jpg",
     hasNewPost: false,
     myAccount: true,
   },
   {
     name: "name1",
     photo:
-      "https://cdn.pixabay.com/photo/2015/04/08/08/57/sakura-712312_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2017/02/14/12/28/stone-tower-2065817_960_720.jpg",
     hasNewPost: true,
     myAccount: false,
   },
   {
     name: "name2",
     photo:
-      "https://cdn.pixabay.com/photo/2016/04/09/02/09/cherry-blossoms-1317308_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2019/05/22/14/10/orchid-4221620__480.jpg",
     hasNewPost: true,
     myAccount: false,
   },
