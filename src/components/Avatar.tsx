@@ -8,7 +8,12 @@ const AvatarImage = styled.img<{ hasNewPost: boolean }>`
   object-fit: cover;
   ${(props) =>
     props.hasNewPost
-      ? "background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0.33, pink), color-stop(0.13, blue), color-stop(0.1, pink), color-stop(1, purple)); padding: 3px; width: 66px; height: 66px"
+      ? `background-image: -webkit-gradient(linear, left bottom, right top, 
+        color-stop(0.33, pink), color-stop(0.13, blue), 
+        color-stop(0.1, pink), color-stop(1, purple)); 
+        padding: 3px;
+        width: 66px;
+        height: 66px`
       : ""};
 `;
 
